@@ -40,3 +40,15 @@ div.highlight{
     font-size: 14px;
     background-color: #a47900;
 }
+
+div.location{
+    background-image: url(../IMG/locationBannerProv.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    width: 100vw;
+    max-width: 1366px;
+    margin-top: 75px;
+}
+
