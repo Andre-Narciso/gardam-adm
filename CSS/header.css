@@ -1,0 +1,39 @@
+header{
+    background-color: #fff;
+    width: 100vw;
+    /* max-width: 1366px; */
+    padding: 0 calc((100vw - 1366px)/2);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    box-shadow: 0px -5px 35px 0px rgba(0,0,0,0.25);
+}
+
+div.menu-logo-icon{
+    padding: 10px 0;
+}
+
+img.icon{
+    width: 275px;
+}
+
+ul.menu-options{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    width: calc(100vw - 600px);
+}
+
+li.option a{
+    text-decoration: none;
+    color: #1e3466;
+}
+
+li.superlogica-redirect a{
+    background-color: #1e3466;
+    color: #fff;
+    padding: 5px 15px;
+    border-radius: 4px;
+    box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.45);
+}

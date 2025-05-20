@@ -1,0 +1,42 @@
+main.content-wrapper{
+    min-height: 100vh;
+    width: 100vw;
+    max-width: 1366px;
+}
+
+div.resume{
+    height: 400px;
+    background-image: url(../IMG/banner-home.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-top: 170px;
+}
+
+div.text-content{
+    width: 600px;
+    padding: 25px 0 ;
+    line-height: 45px;
+    text-align: center;
+}
+
+div.text-content p {
+    font-size: 22px;
+}
+
+div.highlights-wrapper{
+    display: flex;
+    justify-content: center;
+    width: 600px;
+}
+
+div.highlight{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 170px;
+    padding: 9px 0;
+    font-size: 14px;
+    background-color: #a47900;
+}
